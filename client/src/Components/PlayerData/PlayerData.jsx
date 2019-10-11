@@ -5,10 +5,10 @@ function PlayerData({ item }) {
     const country = item.country;
     const searches = item.searches;
     return (
-        <div>
-            <h2>{name}</h2>
-            <p>{`Country: ${country}`}</p>
-            <p>{`Searches: ${searches}`}</p>
+        <div className='player-data'>
+            <h2 className='name'>{name}</h2>
+            <p className='player-details'>{`Country: ${country}`}</p>
+            <p className='player-details'>{`Searches: ${searches}`}</p>
         </div>
     )
 }
