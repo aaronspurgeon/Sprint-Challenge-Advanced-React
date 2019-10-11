@@ -1,10 +1,11 @@
 import React from 'react';
+import ClassData from './Components/ClassData/ClassData';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <ClassData />
     </div>
   );
 }
