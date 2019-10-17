@@ -22,10 +22,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Why would you use class component over function components (removing hooks from the question)?
-- [ ] Name three lifecycle methods and their purposes.
-- [ ] What is the purpose of a custom hook?
-- [ ] Why is it important to test our apps?
+- [x] Why would you use class component over function components (removing hooks from the question)?
+Answer: Class Components have been a big part of the React ecosystem because they brought a lot of functionality that we normally didn’t get with the React API when using function components.
+- [x] Name three lifecycle methods and their purposes.
+Answer: ComponentDidMount: This is the phase when the component is being          built out from ground up.
+        ComponentDidUpdate: This is where we can change the component's state data
+        ComponentDidUnmount: Component is removed from the screen.
+- [x] What is the purpose of a custom hook?
+Answer: Allows you to apply non-visual behavior and stateful logic throughout your components by reusing the same hook over and over again.
+- [x] Why is it important to test our apps?
+Answer: Testing is essential for software quality, we should be using testing libraries to automate testing so we do not have to manually test by hand.
 
 ## Project Set Up
 
@@ -52,12 +58,12 @@ Follow these steps for completing your project:
 
 Your finished project must include all of the following requirements:
 
-- [ ] Class component that fetches data from the server you now have running - the data can be fetched from `http://localhost:5000/api/players`
-- [ ] Display the player data you receive from the API
-- [ ] Build a custom hook and use it in your app - this can be a localStorage hook, a fetch hook, a dark mode hook, or any other hook you would like
+- [x] Class component that fetches data from the server you now have running - the data can be fetched from `http://localhost:5000/api/players`
+- [x] Display the player data you receive from the API
+- [x] Build a custom hook and use it in your app - this can be a localStorage hook, a fetch hook, a dark mode hook, or any other hook you would like
 - [ ] Write a "reasonable" amount of unit tests for your React components. What does "reasonable amount" mean? That is up to you to decide. Be ready to defend your choice to your TL 👍
 
 ## Stretch Problems
 
-- [ ] Implement another custom hook
+- [x] Implement another custom hook
 - [ ] Use a graphing library to graph the data you received from the API
